@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Quicksand:wght@300..700&display=swap");
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Define your custom color classes */
+.primary-bg {
+  background-color: #f3f4f6; /* Tailwind's gray-100 */
+}
+
+.secondary-bg {
+  background-color: #d1d5db; /* Tailwind's gray-300 */
+}
+
+.tertiary-bg {
+  background-color: #6b7280; /* Tailwind's gray-500 */
+}
+
+.contrast-bg {
+  background-color: #111827; /* Tailwind's gray-900 */
+}
+
+.primary-text {
+  color: #f3f4f6;
+}
+
+.secondary-text {
+  color: #d1d5db;
+}
+
+.tertiary-text {
+  color: #6b7280;
+}
+
+.contrast-text {
+  color: #111827;
+}
+
+.primary-border {
+  border: 1px solid #f3f4f6;
+}
+
+.secondary-border {
+  border: 1px solid #d1d5db;
+}
+
+.tertiary-border {
+  border: 1px solid #6b7280;
+}
+
+.contrast-border {
+  border: 1px solid #111827;
+}
+
+* {
+  /* padding: 0px; */
+  /* margin: 0px; */
+  box-sizing: border-box;
+}
+
+.primary-text-color {
+  color: rgb(27, 27, 27);
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.secondary-text-color {
+  color: rgb(72, 72, 72);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font1 {
+  font-family: "DM Sans", sans-serif;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 10s ease-in forwards;
+}
+
+.typewriter {
+  font-family: monospace;
+  overflow: hidden; /* Ensures the text is hidden initially */
+  white-space: nowrap; /* Keeps text on a single line */
+  border-right: 2px solid black; /* Cursor effect */
+  width: 0; /* Start with no width */
+  animation: typing 3s steps(25), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px); /* Optional: slight movement */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-delay {
+  animation: fadeIn 2s ease-in 0.5s forwards;
+}
+
+/* styles/globals.css */
+
+::-webkit-scrollbar {
+  width: 8px;
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 0; /* Square edges */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

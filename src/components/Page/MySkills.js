@@ -1,0 +1,48 @@
+"use client";
+
+export default function Skills() {
+  const skills = [
+    "JavaScript (ES6+)",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Git & GitHub",
+    "AWS (EC2, S3)",
+    "Docker",
+    "Jenkins",
+    "Socket.IO",
+    "Photoshop",
+  ];
+
+  return (
+    <section className="w-full font1 bg-white/5 backdrop-blur   border-gray-200/60 py-24 px-6 md:px-12 relative overflow-hidden">
+      <div className="max-w-5xl mx-auto flex flex-col items-center text-center gap-8">
+        {/* HEADING */}
+        <h2 className="text-4xl  md:text-5xl font-bold tracking-tight">
+          Technologies{" "}
+          <span className="bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-transparent">
+            I Have Mastered
+          </span>
+        </h2>
+
+        {/* SKILLS GRID */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+          {skills.map((skill, index) => (
+            <div
+              key={index}
+              className="px-6  py-4 rounded-lg bg-white/10 text-gray-800 shadow-sm backdrop-blur-sm border border-white/20 transition-all duration-300 hover:bg-red-500 hover:text-white"
+            >
+              {skill}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Decorative blobs */}
+      <div className="absolute top-0 left-0 w-[280px] h-[280px] bg-gradient-to-t from-red-500/15 to-red-50/10 rounded-full blur-3xl -z-10" />
+      <div className="absolute bottom-0 right-0 w-[200px] h-[200px] bg-gradient-to-t from-red-500/15 to-red-50/10 rounded-full blur-3xl -z-10" />
+    </section>
+  );
+}
