@@ -40,7 +40,7 @@ export default function Contact() {
             Get in Touch
           </span>
         </h2>
-        <p className="text-sm text-gray-300 max-w-2xl">
+        <p className="text-sm text-gray-500 max-w-2xl">
           Have a question, project idea, or just want to share a cool tech meme?
           My inbox and DMs are always open — I might even respond with a GIF.
         </p>
@@ -58,7 +58,7 @@ export default function Contact() {
               <Icon className="w-5 h-5 text-red-500 group-hover:text-white transition-colors duration-300" />
               <div className="flex flex-col text-left">
                 <span className="text-sm font-medium">{label}</span>
-                <span className="text-xs text-gray-400 group-hover:text-white transition-colors duration-300">
+                <span className="text-xs text-gray-500 group-hover:text-white transition-colors duration-300">
                   {text}
                 </span>
               </div>

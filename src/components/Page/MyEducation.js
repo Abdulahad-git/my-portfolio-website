@@ -6,19 +6,19 @@ export default function Education() {
   const education = [
     {
       title: "B.Sc. Computer Science",
-      school: "XYZ University",
-      year: "2020 - 2023",
+      school: "The New College",
+      year: "2021 - 2023",
       icon: GraduationCap,
     },
     {
       title: "Higher Secondary Certificate",
-      school: "ABC Junior College",
+      school: "St. Joseph High School",
       year: "2018 - 2020",
       icon: BookOpen,
     },
     {
       title: "Secondary School Leaving Certificate",
-      school: "DEF High School",
+      school: "St. Joseph High School",
       year: "2017 - 2018",
       icon: School,
     },

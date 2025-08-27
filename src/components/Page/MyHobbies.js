@@ -34,7 +34,7 @@ export default function Hobbies() {
               key={index}
               className="flex items-center gap-3 px-4 py-3 rounded-lg bg-white/10 shadow-sm backdrop-blur-sm border border-white/20 transition-all duration-300 hover:bg-red-500 hover:text-white"
             >
-              <Icon className="w-5 h-5 text-red-500 group-hover:text-white transition-colors duration-300" />
+              <Icon className="w-5 h-5  hover:text-white group-hover:text-white transition-colors duration-300" />
               <span className="text-sm font-medium">{text}</span>
             </div>
           ))}
