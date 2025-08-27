@@ -29,7 +29,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="w-full font1 bg-white/5 backdrop-blur border-gray-200/60 py-14 px-6 md:px-12 relative overflow-hidden">
+    <section className="w-full font1 bg-transparent backdrop-blur border-gray-200/60 py-14 px-6 md:px-12 relative  ">
       <div className="max-w-6xl mx-auto flex flex-col items-center text-center gap-8">
         {/* HEADING */}
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight">

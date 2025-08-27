@@ -13,18 +13,18 @@ import Copyright from "./Footer";
 
 export default function Page() {
   return (
-    <div
-      className={`relative w-screen h-screen overflow-y-scroll bg-gradient-to-tr from-red-500/30 via-red-50/30 to-red-500/30`}
-    >
+    <div className="relative w-screen h-screen overflow-y-scroll bg-gray-50  ">
+      {/* 🔗 Main content */}
       <Header />
       <Intro />
+
       <WhatIDo />
       <Skills />
       <Projects />
       <Education />
       <EagerToLearn />
       <Contact />
-      <Copyright />
+      {/* <Copyright /> */}
     </div>
   );
 }

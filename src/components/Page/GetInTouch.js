@@ -31,7 +31,7 @@ export default function Contact() {
   ];
 
   return (
-    <section className="w-full font1 bg-white/5 backdrop-blur border-gray-200/60 py-20 px-6 md:px-12 relative overflow-hidden">
+    <section className="w-full font1 bg-transparent backdrop-blur border-gray-200/60 py-20 px-6 md:px-12 relative overflow-hidden">
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-8">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight">

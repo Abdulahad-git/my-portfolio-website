@@ -32,8 +32,8 @@ export default function Header() {
   }, []);
 
   return (
-    <div className={` sticky top-0 left-0 z-[100]   px-6 py-2`}>
-      <div className="relative bg-white/10 backdrop-blur px-10 rounded-full font1  transition-all border-b border-gray-200 flex items-center justify-between py-4 p-3">
+    <div className={` sticky top-0 left-0 z-[100]  px-6 py-2`}>
+      <div className="relative bg-transparent backdrop-blur px-10 rounded-full font1  transition-all border-b border-gray-200 flex items-center justify-between py-4 p-3">
         <div className="text-xs md:text-sm m-0 font-semibold primary-text-color">
           {mounted && greeting}
           <div className="text-[6px] md:text-[10px] font-normal text-gray-700">
