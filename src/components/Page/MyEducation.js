@@ -30,7 +30,7 @@ export default function Education() {
         {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-bold tracking-tight">
           My{" "}
-          <span className="bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-white/10">
             Education
           </span>
         </h2>

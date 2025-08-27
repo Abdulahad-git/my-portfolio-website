@@ -4,7 +4,7 @@ import { FileText } from "lucide-react";
 
 export default function Intro() {
   return (
-    <div className="font1 py-30 max-w-7xl overflow-hidden mx-auto relative fade-in-delay w-full flex primary-bg flex-col items-center justify-center bg-gray-200">
+    <div className="font1   py-30 max-w-7xl overflow-auto mx-auto relative fade-in-delay w-full flex primary-bg flex-col items-center justify-center bg-gray-200">
       <div className="in-w-[350px] w-[70%] text-gray-900 leading-[1.5] flex flex-col  items-center justify-center  text-center font-light select-none ">
         <div className=" text-2xl md:text-6xl">
           Hi, I'm <a className="font-semibold text-red-500 ">Abdul ahad</a>

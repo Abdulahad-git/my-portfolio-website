@@ -36,7 +36,7 @@ export default function Contact() {
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
           Let’s{" "}
-          <span className="bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-white/10">
             Get in Touch
           </span>
         </h2>
@@ -68,7 +68,7 @@ export default function Contact() {
 
         {/* Enquiry Form */}
         <div className="w-full mt-10 p-6 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl shadow-lg text-left">
-          <h3 className="text-xl font-semibold mb-1 bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-transparent">
+          <h3 className="text-xl font-semibold mb-1 bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-white/10">
             Let’s Start a Conversation
           </h3>
           <p className="text-sm text-gray-400 mb-6">

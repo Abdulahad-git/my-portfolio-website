@@ -18,7 +18,7 @@ export default function Hobbies() {
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
           My{" "}
-          <span className="bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-white/10">
             Hobbies & Interests
           </span>
         </h2>

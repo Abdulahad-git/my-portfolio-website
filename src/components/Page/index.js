@@ -14,7 +14,7 @@ import Copyright from "./Footer";
 export default function Page() {
   return (
     <div
-      className={`relative w-screen h-screen ${PRIMARY_COLOR} overflow-y-scroll`}
+      className={`relative w-screen h-screen overflow-y-scroll bg-gradient-to-tr from-red-500/30 via-red-50/30 to-red-500/30`}
     >
       <Header />
       <Intro />
